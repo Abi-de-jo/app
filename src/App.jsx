@@ -29,7 +29,7 @@ function App() {
 
   return (
     <div>
-      <h1>App</h1>
+      <h1>{`Follow -> codebyabi `}</h1>
       {showInstallBtn && <button onClick={handleInstallClick}>Install App</button>}
     </div>
   );
